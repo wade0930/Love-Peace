@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>痛在我心-帳號管理</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/mainstyle.css">
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script src="js/accounts.js"></script>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="box">
+        <div class="nav">
+          <img src="img/BullyFree.png" class="Bully">
+          <ul>
+            <li><a href="index.html">回首頁</a></li>
+            <li><a href="bully.html">何謂霸凌</a></li>
+            <li><a href="regulation.html">行政法規</a></li>
+            <li><a href="question.html">常見問題</a></li>
+            <li><a href="account.html">會員中心</a></li>
+            <li><a href="#">留言區</a></li>
+            <li><a href="aboutus.html">聯絡我們</a></li>
+            <li><a href="news1.html">相關連結</a></li>
+            <li><a href="#"><img src="img/search.svg" alt="search" /></a></li>
+          </ul>
+        </div>
+        <h1>帳號管理</h1>
+      </div>
+    </header>
+    <div class="boxright">
+      <h2 class="text-center">帳戶</h2>
+      <form action="#" class="text-center">
+        <div class="form-inline margin-10px">
+          <label class="exampleInputEmail1" for="sample1">帳號</label>
+          <input class="form-control" type="email" id="email" placeholder="信箱: .....@*.com">
+        </div>
+        <div class="form-inline margin-10px">
+          <label class="exampleInputPassword1" for="sample1">密碼</label>
+          <input class="form-control" type="password" id="password" placeholder="英數混合: ********">
+        </div>
+        <button class="btn btn-primary btn-lg left-block" id="login">登入</button>
+        <button class="btn btn-primary btn-lg right-block" id="signup">註冊</button>
+        <div class="text-center" id="sign-info">Please Login or SignUp</div>
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>

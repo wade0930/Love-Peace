@@ -1,0 +1,20 @@
+.card .card-content .card-title {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+.card .card-title {
+color:black;
+}
+.card-title h1{
+  font-size: 24px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+.input-field .prefix {
+    position: absolute;
+    width: 3rem;
+    font-size: 2rem;
+    transition: color .2s;
+}
